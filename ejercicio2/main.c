@@ -25,13 +25,11 @@ int main(void) {
         switch (opcion) {
             case 1:
                 printf("Dime otra fraccion para multiplicarla por la anterior: \n");
-                
                 mostrar_fraccion(multiplicar(F1, F2));
                 system("pause");
 
                 break;
             case 2:
-
                 printf("Este es el resultado: \n");
                 F3 = dividir(F1,F2);
                 mostrar_fraccion(F3);

@@ -34,7 +34,6 @@ int main(){
     printf("Dime tu nombre: ");
     fgets(P1.nombre,TAM,stdin);
     P1.nombre[strlen(P1.nombre)-1] = '\0';
-
     printf("Dime cuanto pesas en Kg: ");
     scanf("%f", &P1.peso);
 
@@ -43,6 +42,7 @@ int main(){
     
     
     printf("Tu masa corporal es de %.2f.", imc(P1.peso, P1.altura));
+    printf("%s", P1.nombre);
 
     
 }
