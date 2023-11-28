@@ -16,7 +16,7 @@ fracciones multiplicar(fracciones f1, fracciones f2);
 fracciones sumar_fraccion(fracciones f1, fracciones f2);
 fracciones dividir (fracciones f1, fracciones f2);
 fracciones restar_fracciones(fracciones f1, fracciones f2);
-fracciones simplificar(fracciones f1, fracciones f2);
+fracciones simplificar(fracciones fres);
 int mcd(int n1, int n2);
 
 #endif // __funciones_h_
