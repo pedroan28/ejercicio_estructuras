@@ -7,7 +7,8 @@ int main(void) {
     int opcion;
     fracciones F1, F2, F3;
 
-    
+    pedir_fraccion(&F1);
+    pedir_fraccion(&F2);
 
     do {
         
