@@ -2,11 +2,6 @@
 #include "funciones.h"
 #include "funciones.c"
 
-
-
-
-
-
 int main() {
     persona personas[MAX];
 
@@ -17,6 +12,3 @@ int main() {
    
    
 }
-
-
-
